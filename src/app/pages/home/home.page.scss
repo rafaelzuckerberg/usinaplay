@@ -188,6 +188,7 @@ ion-content {
     ion-grid {
 
         margin-left: 7%;
+        margin-top: 5%;
 
         ion-row {
             color: white;
@@ -212,6 +213,27 @@ ion-content {
                 }
             }
         }
+
+
+        // Begin list teste
+        ion-slides {
+
+            margin-top: -23%;
+
+            ion-slide {
+                margin-right: 8%;
+                width: 150px; 
+                height: 200px;
+
+                ion-col {
+
+                    img {
+                        border-radius: 10%;
+                    }
+                }
+            }
+        }
+        // End list teste
     }
 }
 /*
