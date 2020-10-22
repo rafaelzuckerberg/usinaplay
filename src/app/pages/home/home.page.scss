@@ -161,10 +161,6 @@ ion-header {
                             margin-left: 1%;
                         }
                     }
-
-
- 
-
                 }
             }     
             /*
@@ -186,7 +182,37 @@ ion-header {
 *   Begin Custom Content
 */
 ion-content {
+
     --background: black;
+
+    ion-grid {
+
+        margin-left: 7%;
+
+        ion-row {
+            color: white;
+
+            ion-col {
+
+                h1 {
+                    font-size: 13pt;
+                    font-family: fantasy;
+                }
+            }
+
+            ion-col.block-image {
+                // border: 0.5px solid gray;
+                // border-radius: 15px;
+                height: 100px;
+                margin-top: -2%;
+                // width: 15%;
+
+                img {
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
 }
 /*
 *   Begin Custom Content
