@@ -198,8 +198,14 @@ ion-content {
                 h1 {
                     font-size: 13pt;
                     font-family: fantasy;
+
+                    #icon_add {
+                        width: 8%;
+                        margin-left: 2%;
+                    }
                 }
             }
+            
 
             ion-col.block-image {
                 // border: 0.5px solid gray;
@@ -210,6 +216,20 @@ ion-content {
 
                 img {
                     border-radius: 15px;
+                }
+            }
+
+            .text-new {
+                background: #ea7a07;
+                border-radius: 19px;
+                height: 11px;
+                margin-top: 9%;
+                width: 20px;
+
+                strong {
+                    font-size: 4pt;
+                    position: absolute;
+                    margin: 1% 1%;
                 }
             }
         }
@@ -227,8 +247,47 @@ ion-content {
 
                 ion-col {
 
+                    #button_add {
+                        position: absolute;
+                        margin: 23% 23%;
+                        width: 22%;
+                    }
+
+                    h3 {
+                        color: white;
+                        font-size: 12px;
+                        position: absolute;
+                        margin: 26% 49%;
+                        font-weight: 700;
+                    }
+
                     img {
                         border-radius: 10%;
+                    }
+
+
+                    .text-programms {
+                        // border: 0.5px solid gray;
+                        width: 100%;
+                        position: absolute;
+
+                        h5 {
+                            color: #ea7a07;
+                            font-size: 5pt;
+                            margin-top: 46%;
+                            margin-left: -42%;
+                            font-family: fantasy;
+                            margin-bottom: -5%;
+                        }
+                        
+
+                        p {
+                            font-size: 10pt;
+                            margin-top: 6%;
+                            margin-left: -17%;
+                            font-family: fantasy;
+                            color: white;
+                        }
                     }
                 }
             }

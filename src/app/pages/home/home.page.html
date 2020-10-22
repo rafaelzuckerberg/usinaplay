@@ -77,15 +77,15 @@
     <!-- Begin Personal online -->
     <ion-row>
       <ion-col>
-        <h1>PERSONAL ONLINE</h1>
+        <h1>PERSONAL ONLINE <img src="assets/images/several/icon_add.png" id="icon_add"></h1>
       </ion-col>
     </ion-row>
     
     <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
       <ion-slide *ngFor="let card of [0, 1, 2, 3, 4, 5, 6]">
         <ion-col>
-          <!-- <ion-label>Card #{{ card }}</ion-label> -->
-          <!-- <ion-img style="pointer-events:none" src="assets/images/several/peso.png"></ion-img> -->
+          <img src="assets/images/several/button_add.png" id="button_add">
+          <h3>NOVO TREINO</h3>
           <img src="assets/images/several/peso.png" alt="">
         </ion-col>
       </ion-slide>
@@ -96,14 +96,21 @@
     
     <!-- Begin Programas -->
     <ion-row>
-      <ion-col>
-        <h1>PROGRAMAS</h1>
+      <ion-col [ngStyle]="{display: 'flex'}">
+        <h1>PROGRAMAS</h1> 
+        <div class="text-new">
+          <strong>NOVO</strong>
+        </div>
       </ion-col>
     </ion-row>
     
     <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
       <ion-slide *ngFor="let card of [0, 1, 2, 3, 4, 5, 6]">
         <ion-col>
+          <div class="text-programms">
+            <h5>Continuar treinando</h5>
+            <p>LEVANTANDO PESO</p>
+          </div>
           <img src="assets/images/several/peso.png" alt="">
         </ion-col>
       </ion-slide>
