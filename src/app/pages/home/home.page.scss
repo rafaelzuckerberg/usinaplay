@@ -1,0 +1,193 @@
+
+
+ion-header {
+
+    ion-toolbar {
+
+        --background: #202020;
+        border-radius: 0% 0% 20% 20%;
+
+        /*
+        *   Begin custom toolbar
+        */
+        .grid-toolbar {
+
+
+            /*
+            *   Begin custom menu Toolbar
+            */
+            .row-toolbar {
+                // border: 0.5px solid white;
+                display: flex;
+                
+                /*
+                *   Custom menu button
+                */
+                .col-menu {
+                    // border: 0.5px solid gray;
+                    width: 15%;
+
+                    ion-buttons {
+                        color: white;
+                    }
+                }
+
+                /*
+                *   Custom logo
+                */
+                .col-logo {
+                    // border: 0.5px solid gray;
+                    width: 65%;
+
+                    img {
+                        width: 40%;
+                        margin: 0% 35%;
+                    }
+                }
+               
+                /*
+                *   Custom icon
+                */
+                .col-icon {
+                    // border: 0.5px solid gray;
+                    width: 20%;
+
+                    ion-icon {
+                        float: right;
+                        margin-right: 32%;
+                        margin-top: 15%;
+                        color: #f07d07;
+                    }
+                }
+            }
+            /*
+            *   End custom menu Toolbar
+            */
+
+
+
+            /*
+            *   Begin custom profile Toolbar
+            */
+            .row-profile {
+                display: flex;
+
+                .col-avatar {
+                    position: relative;
+                    width: 35%;
+                    height: auto;
+                    border-radius: 50%;
+
+                    img {
+                        border-radius: 50% 50%;
+                        width: 50%;
+                        margin-left: 35%;
+                        margin-top: 6%;
+                    }
+                }
+                
+                .col-details {
+                    width: 65%;
+
+                    h1 {
+                        color: white;
+                        font-size: 12pt;
+                        margin: 8% 0% 0% 0%;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        margin: 0% auto;
+                        color: #f22fff;
+                        font-size: 10pt;
+                    }
+                }
+            }
+            /*
+            *   End custom profile Toolbar
+            */
+
+
+
+            /*
+            *   Begin custom informations around Toolbar
+            */
+            .row-informations-around {
+
+                width: 100%;
+                margin-top: 5%;
+                margin-bottom: 8%;
+                
+                .col-informations-around {
+                    width: 68%;
+                    margin: auto;
+                    display: flex;
+                    background-color: #161616;
+                    border-radius: 30px;
+
+
+                    color: #f07d07;
+                    font-family: fantasy;
+                    line-height: 15px;
+                    font-size: 6pt;
+
+
+                    .icon-information-left {
+                        width: 40%;
+                        margin: 2%;
+                        display: flex;
+
+                        .icon-left {
+                            // border: 0.5px solid gray;
+                        }
+                        .text-information-left {
+                            line-height: 20px;
+                            margin-left: 1%;
+                        }
+                    }
+                  
+                  
+                    .icon-information-right {
+                        width: 60%;
+                        margin: 2%;
+                        display: flex;
+
+                        .icon-right {
+                            // border: 0.5px solid gray;
+                        }
+
+                        .text-information-right {
+                            line-height: 20px;
+                            margin-left: 1%;
+                        }
+                    }
+
+
+ 
+
+                }
+            }     
+            /*
+            *   End custom informations around Toolbar
+            */
+        }
+
+        /*
+        *   End custom toolbar
+        */
+
+    }
+}
+
+
+
+
+/*
+*   Begin Custom Content
+*/
+ion-content {
+    --background: black;
+}
+/*
+*   Begin Custom Content
+*/
